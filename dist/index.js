@@ -1,4 +1,3 @@
-//import { ApolloServer } from "@apollo/server";
 import { schemaComposer } from "graphql-compose";
 import mongoose from "mongoose";
 import * as userController from "./User/User_controller.js";
