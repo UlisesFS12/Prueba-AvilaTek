@@ -1,0 +1,8 @@
+export type User{
+  _id: Types.ObjectId;
+  First_name: string;
+  Last_name: string;
+  email: string;
+  password?: string;
+  active?: boolean;
+}
